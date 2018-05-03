@@ -10,11 +10,11 @@ ReactRestify (https://github.com/CapMousse/React-Restify/)
 ### How to use
 You can use HHVM ou PHP7.1+ CLI to start this server like described below
 
-- hhvm -f Server.php
+- hhvm -f Server.php opt=value opt1=value1 opt2=value2...
 
 *or*
 
-- php -f Server.php
+- php -f Server.php opt=value opt1=value1 opt2=value2...
 
 ### Options to start this server
 - timezone<br>
@@ -33,16 +33,16 @@ You can use HHVM ou PHP7.1+ CLI to start this server like described below
 	Set port to run this server<br>
     *port=3000*
 - cors<br>
-	Set CORS domain to access<br>
+	Set CORS domain to access this server<br>
     *cors=https://paulosouza.info*
 - dsn<br>
 	Set DSN to your database. If don't set this, the server create a SQLite database to you.<br>
     *dsn=mysql:host=127.0.0.1:3306\\\;dbname=test*
 - user<br>
-	Set user can access your database<br>
+	Set the user can access your database<br>
     *user=root*
 - pass<br>
-	Set password from user access your database<br>
+	Set the user password to your database<br>
     *pass=123456*
 - freeze<br>
 	If set like TRUE, this server preserves your schemas and cannot create a new tables or change schemas anymore<br>
