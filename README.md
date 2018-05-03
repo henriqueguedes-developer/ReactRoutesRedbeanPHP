@@ -37,7 +37,7 @@ You can use HHVM ou PHP7.1+ CLI to start this server like described below
     *cors=https://paulosouza.info*
 - dsn<br>
 	Set DSN to your database. If don't set this, the server create a SQLite database to you.<br>
-    *dsn=mysql:host=127.0.0.1:3306\\\;dbname=test*
+    *dsn=mysql:host=127.0.0.1:3306\ \ \ ;dbname=test*
 - user<br>
 	Set the user can access your database<br>
     *user=root*
