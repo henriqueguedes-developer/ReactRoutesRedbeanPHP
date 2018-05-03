@@ -1,0 +1,14 @@
+{
+    "require": {
+        "capmousse/react-restify": "^1.1",
+        "gabordemooij/redbean": "^5.1",
+        "curl/curl": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+          "Psi\\": "src/",
+          "Psi\\System\\": "src/Psi/System",
+          "Psi\\Crud\\": "src/Psi/Crud"
+        }
+    }
+}
