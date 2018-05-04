@@ -11,7 +11,7 @@ class Update {
 
     if(!isset($request->httpRequest->getHeaders()['data'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "data" que deve ser passado como JSON'])
+        ->writeJson(['You need pass HEADER named "data" in a JSON format'])
         ->end();
     }
 

@@ -11,7 +11,7 @@ class Query {
 
     if(!isset($request->httpRequest->getHeaders()['query'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "query"'])
+        ->writeJson(['You need pass HEADER named "query" in a STRING format'])
         ->end();
     }
 
@@ -28,7 +28,7 @@ class Query {
 
     if(!isset($request->httpRequest->getHeaders()['query'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "query"'])
+        ->writeJson(['You need pass HEADER named "query" in a STRING format'])
         ->end();
     }
 
@@ -43,7 +43,7 @@ class Query {
 
     if(!isset($request->httpRequest->getHeaders()['query'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "query"'])
+        ->writeJson(['You need pass HEADER named "query" in a STRING format'])
         ->end();
     }
 
@@ -58,7 +58,7 @@ class Query {
 
     if(!isset($request->httpRequest->getHeaders()['query'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "query"'])
+        ->writeJson(['You need pass HEADER named "query" in a STRING format'])
         ->end();
     }
 
@@ -73,7 +73,7 @@ class Query {
 
     if(!isset($request->httpRequest->getHeaders()['query'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "query"'])
+        ->writeJson(['You need pass HEADER named "query" in a STRING format'])
         ->end();
     }
 
