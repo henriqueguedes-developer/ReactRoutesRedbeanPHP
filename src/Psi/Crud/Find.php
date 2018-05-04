@@ -20,7 +20,7 @@ class Find {
 
     if(!isset($request->httpRequest->getHeaders()['where'])) {
       $response
-        ->writeJson(['Não foi encontrado o HEADER "where"'])
+        ->writeJson(['You need pass HEADER named "where" in a STRING format'])
         ->end();
     }
 

@@ -9,7 +9,7 @@ class Preflight {
     $response->addHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
 
     $response
-      ->writeJson('Preflight works!')
+      ->writeJson('Preflight in '.SERVERSIGN.' works!')
       ->end();
   }
 }
