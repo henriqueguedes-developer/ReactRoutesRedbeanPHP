@@ -3,11 +3,6 @@ namespace Psi\System;
 use \RedBeanPHP\Facade as R;
 
 class Core {
-  private $mongo;
-  protected $redis;
-  protected $session;
-  protected $input;
-
   // from react
   protected $request;
   protected $response;
